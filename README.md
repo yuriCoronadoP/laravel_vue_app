@@ -68,17 +68,17 @@ El objetivo de esta prueba es medir las habilidades técnicas del candidato para
 
 ## Indicaciones para el desarrollo del Examen:
 Para el desarrollo de este examen se utilizaron las siguientes tecnologías.
-- [Laravel]
-- [PHP]
-- [Vue]
-- [MySQL]
-- [GitHub]
+- Laravel
+- PHP
+- Vue
+- MySQL
+- GitHub
 
 *El proyecto consta de:*
 
-- [Formulario que permita al usuario: Registrar un nuevo libro.]
-- [Editar la información del libro.]
-- [Eliminar un libro.]
-- [Listado de todos los libros registrados.]
-- [Pantalla de inicio]
-- [Pantalla de contacto]
+- Formulario que permita al usuario: Registrar un nuevo libro.
+- Editar la información del libro.
+- Eliminar un libro.
+- Listado de todos los libros registrados.
+- Pantalla de inicio
+- Pantalla de contacto
