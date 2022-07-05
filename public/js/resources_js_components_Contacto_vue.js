@@ -31,7 +31,57 @@ var staticRenderFns = [function () {
     staticClass: "col text-center"
   }, [_c("h1", [_vm._v("Componente "), _c("span", {
     staticClass: "badge bg-secondary"
-  }, [_vm._v("CONTACTO")])])])])]);
+  }, [_vm._v("CONTACTO")])])])]), _vm._v(" "), _c("div", {
+    staticClass: "row mt-5"
+  }, [_c("div", {
+    staticClass: "col-6 d-flex"
+  }, [_c("div", {
+    staticClass: "card flex-fill flex-row"
+  }, [_c("div", {
+    staticClass: "card-body align-self-center"
+  }, [_c("h5", {
+    staticClass: "card-title"
+  }, [_vm._v("Yuriria Coronado Perez")]), _vm._v(" "), _c("h6", {
+    staticClass: "card-subtitle mb-2 text-muted"
+  }, [_vm._v("Cd. Victoria, Tams")]), _vm._v(" "), _c("p", {
+    staticClass: "card-text"
+  }, [_vm._v("yuricoronadop@gmail.com")]), _vm._v(" "), _c("p", {
+    staticClass: "card-text"
+  }, [_vm._v("834 143 7535")])])])]), _vm._v(" "), _c("div", {
+    staticClass: "col-6"
+  }, [_c("form", [_c("div", {
+    staticClass: "mb-3"
+  }, [_c("label", {
+    staticClass: "form-label",
+    attrs: {
+      "for": "exampleInputEmail1"
+    }
+  }, [_vm._v("Correo electronico")]), _vm._v(" "), _c("input", {
+    staticClass: "form-control",
+    attrs: {
+      type: "email",
+      id: "exampleInputEmail1",
+      "aria-describedby": "emailHelp"
+    }
+  })]), _vm._v(" "), _c("div", {
+    staticClass: "mb-3"
+  }, [_c("label", {
+    staticClass: "form-label",
+    attrs: {
+      "for": "exampleFormControlTextarea1"
+    }
+  }, [_vm._v("Mensaje")]), _vm._v(" "), _c("textarea", {
+    staticClass: "form-control",
+    attrs: {
+      id: "exampleFormControlTextarea1",
+      rows: "3"
+    }
+  })]), _vm._v(" "), _c("button", {
+    staticClass: "btn btn-primary",
+    attrs: {
+      type: "submit"
+    }
+  }, [_vm._v("Enviar")])])])])]);
 }];
 render._withStripped = true;
 
