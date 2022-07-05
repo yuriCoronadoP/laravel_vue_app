@@ -14,7 +14,7 @@ class LibroController extends Controller
      */
     public function index()
     {
-        $libro = Blog::all();
+        $libro = Libro::all();
         return response()->json($libro);
     }
 
@@ -37,7 +37,7 @@ class LibroController extends Controller
     public function store(Request $request)
     {
         $libro = Libro::create($request->post());
-        return $response()->json([
+        return response()->json([
             'libro'=>$libro,
             'mensaje'=>'Libro guardado exitosamente'
         ]);
@@ -51,7 +51,7 @@ class LibroController extends Controller
      */
     public function show(Libro $libro)
     {
-        return $response()->json($libro);
+        return response()->json($libro);
     }
 
     /**
@@ -74,8 +74,8 @@ class LibroController extends Controller
      */
     public function update(Request $request, Libro $libro)
     {
-        $libro->fill($request->post()->save());
-        return $response()->json([
+        $libro->fill($request->post())->save();
+        return response()->json([
             'libro'=>$libro,
             'mensaje'=>'Libro actualizado'
         ]);
