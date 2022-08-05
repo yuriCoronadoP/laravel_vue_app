@@ -20,9 +20,15 @@ Para el desarrollo de este examen se utilizaron las siguientes tecnologías.
 - Pantalla de inicio
 - Pantalla de contacto
 
-## Base de datos
+## Uso
 
-Se debera crear una base de datos con el nombre **app_prueba**
+1. Ejecutar el comando 
+
+````
+php artisan serve
+````
+
+2. Crear una base de datos con el nombre **app_prueba**
 
 Las tablas se crean por migraciones de laravel ejecutando el comando: 
 
